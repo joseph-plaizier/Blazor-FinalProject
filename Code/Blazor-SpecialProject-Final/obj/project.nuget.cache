@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ai5ML6YqxvQ=",
+  "dgSpecHash": "pCoDFV24IHs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\FinalProject\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj",
+  "projectFilePath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cantc\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\cantc\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

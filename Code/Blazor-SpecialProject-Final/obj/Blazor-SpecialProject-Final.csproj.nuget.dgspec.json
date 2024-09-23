@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\FinalProject\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj": {}
+    "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\FinalProject\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj": {
+    "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\FinalProject\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj",
+        "projectUniqueName": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj",
         "projectName": "Blazor-SpecialProject-Final",
-        "projectPath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\FinalProject\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj",
+        "projectPath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final.csproj",
         "packagesPath": "C:\\Users\\cantc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\FinalProject\\Blazor-SpecialProject-Final\\Blazor-SpecialProject-Final\\obj\\",
+        "outputPath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\Blazor-SpecialProject-Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
