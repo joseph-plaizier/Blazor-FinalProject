@@ -19,7 +19,10 @@ namespace BlazorSpecialProjectFinal.Data
             base.OnModelCreating(modelBuilder);
             //seed the database with data
             modelBuilder.Entity<Sweet>().HasData(
-                new Sweet { Id = 1, Name = "Acid Pops", Description = "", Price = 10.15, Quantity = 100 },
+                new Sweet { Id = 1, Name = "Acid Pops", 
+                    Description = "They are similar to Muggle lollipops, but like most Honeydukes' fare, " +
+                    "they have an unconventional, magical twist wherein they are able to burn a hole in the tongue.", 
+                    Price = 10.15, Quantity = 100 },
                 new Sweet { Id = 1, Name = "Bat's Blood Soup", Description = "", Price = 10.15, Quantity = 100 },
                 new Sweet { Id = 1, Name = "Bertie Bott's Every Flavour Beans", Description = "", Price = 10.15, Quantity = 100 },
                 new Sweet { Id = 1, Name = "Blood Flavoured Lollipops", Description = "", Price = 10.15, Quantity = 100 },
