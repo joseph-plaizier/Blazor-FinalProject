@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JysO7gieuHS0R6yd41jkfm6hRZVniefyRrAhdEs8ivQ=",
+  "Hash": "MMa56XeGj5uPqmqGg2WKgoUQLP7x9V7Bys6v7UkM6oU=",
   "Source": "BlazorSpecialProjectFinal",
   "BasePath": "_content/BlazorSpecialProjectFinal",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorSpecialProjectFinal\\wwwroot",
       "Source": "BlazorSpecialProjectFinal",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorSpecialProjectFinal.styles.css",
+      "Identity": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorSpecialProjectFinal.styles.css",
       "SourceId": "BlazorSpecialProjectFinal",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "RelativePath": "BlazorSpecialProjectFinal.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorSpecialProjectFinal.styles.css"
+      "OriginalItemSpec": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorSpecialProjectFinal.styles.css"
     },
     {
-      "Identity": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorSpecialProjectFinal.bundle.scp.css",
+      "Identity": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorSpecialProjectFinal.bundle.scp.css",
       "SourceId": "BlazorSpecialProjectFinal",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "RelativePath": "BlazorSpecialProjectFinal.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorSpecialProjectFinal.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorSpecialProjectFinal.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\app.css",
       "SourceId": "BlazorSpecialProjectFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorSpecialProjectFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorSpecialProjectFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\favicon.png",
       "SourceId": "BlazorSpecialProjectFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cantc\\source\\repos\\BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\wwwroot\\",
       "BasePath": "_content/BlazorSpecialProjectFinal",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\objects\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Program.cs",
+              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Program.cs",
+              "RelativeToolTip": "BlazorSpecialProjectFinal\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:54:15.659Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -36,9 +53,10 @@
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Objects\\Sweet.cs",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Objects\\Sweet.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Objects\\Sweet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T20:33:53Z"
+              "WhenOpened": "2024-09-23T20:33:53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,22 +66,23 @@
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAiwJcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwKoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T20:23:47.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\appsettings.json",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\appsettings.json",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T20:23:20.683Z"
+              "WhenOpened": "2024-09-23T20:23:20.683Z",
+              "EditorCaption": ""
             }
           ]
         }

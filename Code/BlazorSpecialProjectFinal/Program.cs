@@ -30,9 +30,18 @@ namespace BlazorSpecialProjectFinal
                 .AddIdentityCookies();
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            var inventoryConnectionString = builder.Configuration.GetConnectionString("InventoryDatabase") ?? throw new InvalidOperationException("Connection string 'InventoryDatabase' not found.");
+            
+            //add dbcontext for default connection string
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+            //add dbcontext for inventory connection string
+            builder.Services.AddDbContextFactory<InventoryContext>(options =>
+            {
+                options.UseSqlServer(inventoryConnectionString);
+            });
 
             builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>()
