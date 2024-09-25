@@ -37,6 +37,9 @@ namespace BlazorSpecialProjectFinal
                 options.AddPolicy("Regular", policy => policy.RequireClaim("Role", "Regular"));
             });
 
+            //add QuickGrid implementation
+            builder.Services.AddQuickGridEntityFrameworkAdapter();
+
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             var inventoryConnectionString = builder.Configuration.GetConnectionString("InventoryDatabase") ?? throw new InvalidOperationException("Connection string 'InventoryDatabase' not found.");
             

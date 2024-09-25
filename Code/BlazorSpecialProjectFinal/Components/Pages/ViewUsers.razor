@@ -1,5 +1,7 @@
 ﻿@page "/viewUsers"
 
+[Authorize(Policy = "Admin")]
+
 <h3>ViewUsers</h3>
 
 @code {

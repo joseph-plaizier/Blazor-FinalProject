@@ -1,0 +1,27 @@
+﻿
+
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Microsoft.EntityFrameworkCore
+@implements IAsyncDisposable
+@inject IDbContextFactory<InventoryContext> DbFactory
+
+<h3>ProductsComponent</h3>
+
+
+<QuickGrid Items="context.Sweets" >
+    <PropertyColumn Property="@(s => s.SweetId)" Sortable ="true" />
+</QuickGrid>
+
+@code {
+    private InventoryContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+
+    PaginationState pagination = new PaginationState { ItemsPerPage = 10 };
+}

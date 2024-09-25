@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\contactus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\contactus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +21,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\purchasehistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\purchasehistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\contactus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\contactus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\viewproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\viewproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\viewusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\viewusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,70 +78,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:43:36.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewUsers.razor",
+              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ViewUsers.razor",
+              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\ViewUsers.razor",
+              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ViewUsers.razor",
+              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\ViewUsers.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:32:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewProducts.razor",
+              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
+              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
+              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
+              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:32:49.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsComponent.razor",
+              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
+              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
+              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
+              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:31:32.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrderProducts.razor",
+              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
+              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
+              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
+              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T19:26:23.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ContactUs.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ContactUs.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\ContactUs.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ContactUs.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\ContactUs.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T19:17:48.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PurchaseHistory.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseHistory.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseHistory.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseHistory.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseHistory.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T19:12:30.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAD0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-24T19:19:32.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Manage\\Index.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Manage\\Index.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Manage\\Index.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Manage\\Index.razor",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwEoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T13:28:59.829Z"
+              "WhenOpened": "2024-09-25T13:28:59.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Register.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Register.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Register.razor",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T22:36:29.327Z"
+              "WhenOpened": "2024-09-24T22:36:29.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\ApplicationDbContext.cs",
@@ -129,11 +216,12 @@
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T22:26:48.176Z"
+              "WhenOpened": "2024-09-24T22:26:48.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\ApplicationUser.cs",
@@ -141,23 +229,25 @@
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T22:24:09.16Z"
+              "WhenOpened": "2024-09-24T22:24:09.16Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwD0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T19:28:04.585Z"
+              "WhenOpened": "2024-09-24T19:28:04.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
@@ -165,17 +255,18 @@
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T17:38:36.748Z"
+              "WhenOpened": "2024-09-24T17:38:36.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Program.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Program.cs",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Program.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T15:54:15.659Z",
               "EditorCaption": ""

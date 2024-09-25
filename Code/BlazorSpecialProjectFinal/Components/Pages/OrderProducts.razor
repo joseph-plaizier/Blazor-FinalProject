@@ -1,6 +1,11 @@
 ﻿@page "/orderProducts"
 
-<h3>OrderProducts</h3>
+[Authorize(Policy = "Regular")]
+
+<h3>Order Products</h3>
+
+<ProductsComponent></ProductsComponent>
+
 
 @code {
 

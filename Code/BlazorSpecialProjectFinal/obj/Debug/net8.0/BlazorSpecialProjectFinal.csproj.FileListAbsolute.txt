@@ -283,3 +283,13 @@ C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProje
 C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.pdb
 C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.genruntimeconfig.cache
 C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\ref\BlazorSpecialProjectFinal.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.JSInterop.dll

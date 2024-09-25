@@ -1,5 +1,7 @@
 ﻿@page "/viewProducts"
 
+[Authorize(Policy = "Admin")]
+
 <h3>ViewProducts</h3>
 
 @code {
