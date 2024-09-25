@@ -3,9 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -14,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\account\\pages\\manage\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\account\\pages\\manage\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-=======
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,18 +39,6 @@
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\objects\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\objects\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -55,20 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Manage\\Index.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Manage\\Index.razor",
@@ -80,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Register.razor",
@@ -92,14 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-=======
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\ApplicationDbContext.cs",
@@ -111,11 +94,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-=======
-              "DocumentIndex": 1,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 6,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\ApplicationUser.cs",
@@ -123,106 +102,63 @@
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T22:24:09.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "WhenOpened": "2024-09-24T22:24:09.16Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 8,
-=======
-              "DocumentIndex": 7,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\_Imports.razor",
-              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T19:28:50.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 2,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Account\\Pages\\Login.razor",
-              "ViewState": "AgIAACEAAAAAAAAAAIBJwD0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T19:28:04.585Z"
+              "WhenOpened": "2024-09-24T19:28:04.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-<<<<<<< HEAD
-=======
-              "Title": "ExampleLoginInfoComponent.razor",
-              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ExampleLoginInfoComponent.razor",
-              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\ExampleLoginInfoComponent.razor",
-              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ExampleLoginInfoComponent.razor",
-              "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\ExampleLoginInfoComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T19:25:26.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 0,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAgAAAAAAAAAAMBdwCcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-24T19:19:32.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 7,
-=======
-              "DocumentIndex": 4,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 3,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-24T17:38:36.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 0,
-=======
-              "DocumentIndex": 2,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Program.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Program.cs",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Program.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T15:54:15.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Sweet.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Objects\\Sweet.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Objects\\Sweet.cs",
@@ -234,11 +170,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 4,
-=======
-              "DocumentIndex": 9,
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
+              "DocumentIndex": 7,
               "Title": "InventoryContext.cs",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
@@ -247,21 +179,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAKoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T20:23:47.854Z"
-<<<<<<< HEAD
-=======
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\appsettings.json",
-              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\appsettings.json",
-              "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\appsettings.json",
-              "RelativeToolTip": "BlazorSpecialProjectFinal\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T20:23:20.683Z"
->>>>>>> parent of d77f016 (Add First and Last Name to Registry Page)
             }
           ]
         }

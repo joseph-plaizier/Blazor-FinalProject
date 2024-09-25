@@ -3,6 +3,7 @@ using BlazorSpecialProjectFinal.Components.Account;
 using BlazorSpecialProjectFinal.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlazorSpecialProjectFinal
@@ -29,6 +30,12 @@ namespace BlazorSpecialProjectFinal
                 })
                 .AddIdentityCookies();
 
+            //add authorization
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Admin", policy => policy.RequireClaim("Role", "Admin"));
+            });
+
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             var inventoryConnectionString = builder.Configuration.GetConnectionString("InventoryDatabase") ?? throw new InvalidOperationException("Connection string 'InventoryDatabase' not found.");
             
@@ -46,7 +53,11 @@ namespace BlazorSpecialProjectFinal
             builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddSignInManager()
+                .AddRoles<IdentityRole>()
+                .AddRoleManager<RoleManager<IdentityRole>>()
+                .AddRoleStore<RoleStore<IdentityRole, ApplicationDbContext>>()
                 .AddDefaultTokenProviders();
+
 
             builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
