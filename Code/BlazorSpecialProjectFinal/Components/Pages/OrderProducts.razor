@@ -1,10 +1,11 @@
 ﻿@page "/orderProducts"
+@using Microsoft.AspNetCore.Authorization
 
-[Authorize(Policy = "Regular")]
+@attribute [Authorize(Policy = "Regular")]
 
 <h3>Order Products</h3>
 
-<ProductsComponent></ProductsComponent>
+<ProductsComponent role="true"></ProductsComponent>
 
 
 @code {

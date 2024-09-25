@@ -2,22 +2,67 @@
 
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using Microsoft.EntityFrameworkCore
+@using System.Security.Claims
 @implements IAsyncDisposable
 @inject IDbContextFactory<InventoryContext> DbFactory
 
-<h3>ProductsComponent</h3>
+<QuickGrid Items="context.Sweets" class="table table-striped">
+    @if (role)
+    {
+        <TemplateColumn Title="Purchase">
+            <div>
+                <a href="/purchaseProduct">Purchase</a>
+            </div>
+        </TemplateColumn>
+    }
+    else
+    {
+        <TemplateColumn Title="Edit">
+            <div>
+                <a href="/purchaseProduct">Edit</a>
+            </div>
+    </TemplateColumn>
+    <TemplateColumn Title="Delete">
 
-
-<QuickGrid Items="context.Sweets" >
+            <div>
+                <a href="/purchaseProduct">Delete</a>
+            </div>
+    </TemplateColumn>
+    }
     <PropertyColumn Property="@(s => s.SweetId)" Sortable ="true" />
+    <PropertyColumn Property="@(s => s.Name)" Sortable="true" />
+    <PropertyColumn Property="@(s => s.Description)" Sortable="true" />
+    <PropertyColumn Property="@(s => s.Quantity)" Sortable ="true" />
+    <PropertyColumn Property="@(s => s.Price)" Sortable="true" />
+
+
 </QuickGrid>
 
 @code {
     private InventoryContext context = default!;
 
+    ClaimsPrincipal User = new ClaimsPrincipal();
+
+    [Parameter]
+    public bool role { get; set; }
+
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();
+
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+
+    }
+
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+
     }
 
 
