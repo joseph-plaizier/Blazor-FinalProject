@@ -34,6 +34,7 @@ namespace BlazorSpecialProjectFinal
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("Admin", policy => policy.RequireClaim("Role", "Admin"));
+                options.AddPolicy("Regular", policy => policy.RequireClaim("Role", "Regular"));
             });
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");

@@ -178,6 +178,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ContactUs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0VXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -192,6 +196,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/OrderProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xPcmRlclByb2R1Y3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/PurchaseHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQdXJjaGFzZUhpc3RvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ViewProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaWV3UHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ViewUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaWV3VXNlcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Weather.razor]
