@@ -1,5 +1,34 @@
 @import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
 
+/* _content/BlazorSpecialProjectFinal/Components/Controls/ProductsComponent.razor.rz.scp.css */
+.quickgrid[theme=corporate][b-z8jayg2pza] {
+    font-family: 'Comic Sans MS', 'Times New Roman', serif;
+    color: red;
+    border: 1px solid #CCC;
+    font-size: 20px;
+}
+
+.quickgrid[theme=corporate] thead[b-z8jayg2pza] {
+    background-color: antiquewhite;
+}
+
+.quickgrid[theme=corporate] .col-title[b-z8jayg2pza] {
+    gap: 0.4rem; /* Separate the sort indicator from title text */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quickgrid[theme=corporate] .sort-indicator[b-z8jayg2pza] {
+    color: blue;
+}
+
+.quickgrid[theme=corporate] button.col-title:hover[b-z8jayg2pza], .quickgrid[theme=corporate] .col-options-button:hover[b-z8jayg2pza] {
+    background-color: hotpink;
+}
+
+.quickgrid[theme=corporate] button.col-title:active[b-z8jayg2pza], .quickgrid[theme=corporate] .col-options-button:active[b-z8jayg2pza] {
+    background-color: yellow;
+}
 /* _content/BlazorSpecialProjectFinal/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-wdtpa9hfy8] {
     position: relative;

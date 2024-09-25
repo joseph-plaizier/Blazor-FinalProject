@@ -37,6 +37,8 @@ namespace BlazorSpecialProjectFinal
                 options.AddPolicy("Regular", policy => policy.RequireClaim("Role", "Regular"));
             });
 
+            builder.Services.AddTransient<IInventoryDbManagement, InventoryDbManagement>();
+
             //add QuickGrid implementation
             builder.Services.AddQuickGridEntityFrameworkAdapter();
 

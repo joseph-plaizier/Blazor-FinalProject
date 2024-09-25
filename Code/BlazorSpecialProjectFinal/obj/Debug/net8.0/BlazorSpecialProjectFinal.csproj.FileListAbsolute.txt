@@ -293,3 +293,4 @@ C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProje
 C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\scopedcss\Components\Controls\ProductsComponent.razor.rz.scp.css

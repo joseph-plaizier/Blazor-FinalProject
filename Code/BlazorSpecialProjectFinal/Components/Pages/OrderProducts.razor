@@ -4,7 +4,36 @@
 
 <h3>Order Products</h3>
 
-<ProductsComponent></ProductsComponent>
+<table class="table table-striped">
+        <RepeaterComponent Items="context.Sweets">
+            <Header>
+                <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                        <th>
+                            Quantity
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </Header>
+            <Row Context="server">
+                <ProductsComponent></ProductsComponent>
+            </Row>
+        </RepeaterComponent>
+    </table>
+
 
 
 @code {

@@ -174,10 +174,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Controls/ProductsComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xQcm9kdWN0c0NvbXBvbmVudC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Auth.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -229,6 +225,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Controls/ProductsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xQcm9kdWN0c0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-z8jayg2pza
 
 [C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
