@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\viewproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|c:\\users\\cantc\\onedrive - davis technical college\\working code\\2990-specialproject(blazor)\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\purchaseproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -88,7 +88,7 @@
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\ViewProducts.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-26T04:12:29.085Z",
               "EditorCaption": ""
@@ -101,7 +101,7 @@
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\EditProduct.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\EditProduct.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\EditProduct.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-26T00:43:06.815Z",
               "EditorCaption": ""
@@ -144,20 +144,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductsComponent.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
               "ToolTip": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T19:31:32.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderProducts.razor",
               "DocumentMoniker": "C:\\Users\\cantc\\OneDrive - Davis Technical College\\Working Code\\2990-SpecialProject(Blazor)\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
@@ -165,8 +165,7 @@
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\OrderProducts.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T19:26:23.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T19:26:23.905Z"
             },
             {
               "$type": "Document",

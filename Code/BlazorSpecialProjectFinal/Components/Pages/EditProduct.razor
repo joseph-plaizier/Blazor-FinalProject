@@ -9,7 +9,15 @@
 
 @attribute [Authorize (Policy = "Admin")]
 
-<h3>EditProduct</h3>
+@if (Id.HasValue)
+{
+    <h3>Edit Product</h3>
+}
+else
+{
+    <h3>Add Product</h3>
+}
+
 
 
 <EditForm Model = "sweet" FormName = "productForm" OnValidSubmit= "Submit">
@@ -49,6 +57,10 @@
         if (this.Id.HasValue)
         {
             sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+        }
+        else
+        {
+            sweet = new Sweet();
         }
     }
 
