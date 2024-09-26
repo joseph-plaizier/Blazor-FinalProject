@@ -1,6 +1,7 @@
 using BlazorSpecialProjectFinal.Components;
 using BlazorSpecialProjectFinal.Components.Account;
 using BlazorSpecialProjectFinal.Data;
+using BlazorSpecialProjectFinal.Objects;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -38,6 +39,7 @@ namespace BlazorSpecialProjectFinal
             });
 
             builder.Services.AddTransient<IInventoryDbManagement, InventoryDbManagement>();
+            builder.Services.AddScoped<QtPurchase>();
 
             //add QuickGrid implementation
             builder.Services.AddQuickGridEntityFrameworkAdapter();

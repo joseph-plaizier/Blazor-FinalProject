@@ -4,10 +4,19 @@
 @using System.ComponentModel.DataAnnotations
 @inject NavigationManager NavigationManager
 @inject IInventoryDbManagement InventoryDbManagement
+@inject QtPurchase Cart
 
 @attribute [Authorize(Policy = "Regular")]
 
 <h3>Purchase a Product</h3>
+
+@if(itemsInCart > 0)
+{
+    <text>This product has been added to your shopping cart.</text>
+    <br />
+    <text>Your cart contains @itemsInCart items.</text>
+    <br />
+}
 
 <EditForm Model="sweet" FormName="productForm" OnValidSubmit="AddToCart">
     <DataAnnotationsValidator></DataAnnotationsValidator>
@@ -36,14 +45,21 @@
     <InputNumber @bind-Value="newPurch.qt" class="form-control"></InputNumber>
     <ValidationMessage For="@(() => newPurch.qt)"></ValidationMessage>
 </EditForm>
-    
 
 
 @*buttons to update*@
 <br />
 <br />
-<button type="submit" @onclick="AddToCart">Add to cart</button>
+<button type="submit" @onclick="AddToCart" class="btn btn-primary">Add to cart</button>
 
+@if (itemsInCart > 0)
+{
+    <br />
+    <br />
+    <text>All done?  Click here to check out.</text>
+    <br />
+    <button type="submit" @onclick="CheckOut" class="btn btn-primary">Check Out</button>
+}
 
 @code {
 
@@ -52,6 +68,8 @@
 
     [SupplyParameterFromForm]
     private Sweet? sweet { get; set; }
+
+    private int itemsInCart;
 
     QtPurchase newPurch = new QtPurchase();
 
@@ -68,12 +86,17 @@
         }
     }
 
-    private async Task AddToCart()
+    private void AddToCart()
     {
         if(newPurch.qt > 0)
         {
-            newPurch.SwtId = sweet.SweetId;
-
+            Cart.SetCart(sweet);
+            itemsInCart += 1;
         }
+    }
+
+    private void CheckOut()
+    {
+        
     }
 }

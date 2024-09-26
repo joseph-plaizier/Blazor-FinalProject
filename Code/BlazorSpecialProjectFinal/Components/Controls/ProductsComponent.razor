@@ -6,6 +6,7 @@
 @implements IAsyncDisposable
 @inject IDbContextFactory<InventoryContext> DbFactory
 @inject IInventoryDbManagement InventoryDbManagement
+@inject QtPurchase Cart
 
 <QuickGrid Items="context.Sweets" class="table table-striped" Pagination="pagination">
     @if (role)
