@@ -1,0 +1,14 @@
+﻿@page "/orderProducts"
+@using BlazorSpecialProjectFinal.Objects
+@using Microsoft.AspNetCore.Authorization
+
+@attribute [Authorize(Policy = "Regular")]
+
+<h3>Order Products</h3>
+
+    <ProductsComponent role="true"></ProductsComponent>
+
+
+@code {
+
+}

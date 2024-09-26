@@ -1,0 +1,89 @@
+﻿@page "/editProduct/{Id:int}"
+@page "/addProduct"
+
+
+@using BlazorSpecialProjectFinal.Objects
+@using Microsoft.AspNetCore.Authorization
+@inject NavigationManager NavigationManager
+@inject IInventoryDbManagement InventoryDbManagement
+
+@attribute [Authorize (Policy = "Admin")]
+
+@if (Id.HasValue)
+{
+    <h3>Edit Product</h3>
+}
+else
+{
+    <h3>Add Product</h3>
+}
+
+
+
+<EditForm Model = "sweet" FormName = "productForm" OnValidSubmit= "Submit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+
+@if (Id is not null)
+{
+    <InputNumber @bind-Value=sweet.SweetId hidden></InputNumber>    
+}
+    
+    <label for="name">Name</label>
+    <InputText @bind-Value="sweet.Name" class="form-control"></InputText>
+    <ValidationMessage For="@(() => sweet.Name)"></ValidationMessage>
+
+    <label for="description">Description</label>
+    <InputText @bind-Value="sweet.Description" class="form-control"></InputText>
+    <ValidationMessage For="@(() => sweet.Description)"></ValidationMessage>
+
+    <label for="quantity">Quantity</label>
+    <InputNumber @bind-Value="sweet.Quantity" class="form-control"></InputNumber>
+    <ValidationMessage For="@(() => sweet.Quantity)"></ValidationMessage>
+
+    <label for="price">Price</label>
+    <InputNumber @bind-Value="sweet.Price" class="form-control"></InputNumber>
+    <ValidationMessage For="@(() => sweet.Price)"></ValidationMessage>
+</EditForm>
+
+@*buttons to update*@
+<br/>
+<br />
+<button type="submit" @onclick="Submit">Save</button>
+
+@code {
+
+    [Parameter]
+    public int? Id { get; set; }
+
+    [SupplyParameterFromForm]
+    private Sweet? sweet { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (this.Id.HasValue)
+        {
+            sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+        }
+        else
+        {
+            sweet = new Sweet();
+        }
+    }
+
+    public void Submit()
+    {
+        if (sweet != null)
+        {
+            @if (this.Id.HasValue)
+            {
+                InventoryDbManagement.UpdateProduct(sweet.SweetId, sweet);
+            }
+            else
+            {
+                InventoryDbManagement.AddProduct(sweet);
+            }
+        }
+        NavigationManager.NavigateTo("/viewProducts");
+    }
+}

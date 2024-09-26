@@ -1,0 +1,79 @@
+﻿@page "/purchaseProduct/{Id:int}"
+@using BlazorSpecialProjectFinal.Objects
+@using Microsoft.AspNetCore.Authorization
+@using System.ComponentModel.DataAnnotations
+@inject NavigationManager NavigationManager
+@inject IInventoryDbManagement InventoryDbManagement
+
+@attribute [Authorize(Policy = "Regular")]
+
+<h3>Purchase a Product</h3>
+
+<EditForm Model="sweet" FormName="productForm" OnValidSubmit="AddToCart">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+
+    @if (Id is not null)
+    {
+        <InputNumber @bind-Value=sweet.SweetId hidden></InputNumber>
+    }
+
+    <label for="name">Name</label>
+    <InputText @bind-Value="sweet.Name" class="form-control" readonly="true"></InputText>
+    <ValidationMessage For="@(() => sweet.Name)"></ValidationMessage>
+
+    <label for="description">Description</label>
+    <InputText @bind-Value="sweet.Description" class="form-control" readonly="true"></InputText>
+    <ValidationMessage For="@(() => sweet.Description)"></ValidationMessage>
+
+    <label for="price">Price</label>
+    <InputNumber @bind-Value="sweet.Price" class="form-control" readonly=true></InputNumber>
+    <ValidationMessage For="@(() => sweet.Price)"></ValidationMessage>
+</EditForm>
+<EditForm Model = "newPurch" OnValidSubmit="AddToCart">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <label for="quantity">Quantity to Buy</label>
+    <InputNumber @bind-Value="newPurch.qt" class="form-control"></InputNumber>
+    <ValidationMessage For="@(() => newPurch.qt)"></ValidationMessage>
+</EditForm>
+    
+
+
+@*buttons to update*@
+<br />
+<br />
+<button type="submit" @onclick="AddToCart">Add to cart</button>
+
+
+@code {
+
+    [Parameter]
+    public int? Id { get; set; }
+
+    [SupplyParameterFromForm]
+    private Sweet? sweet { get; set; }
+
+    QtPurchase newPurch = new QtPurchase();
+
+    protected override void OnParametersSet()
+    {
+        if (this.Id.HasValue)
+        {
+            sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+
+        }
+        else
+        {
+            sweet = new Sweet();
+        }
+    }
+
+    private async Task AddToCart()
+    {
+        if(newPurch.qt > 0)
+        {
+            newPurch.SwtId = sweet.SweetId;
+
+        }
+    }
+}

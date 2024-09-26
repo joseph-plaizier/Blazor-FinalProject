@@ -1,0 +1,89 @@
+﻿
+@using BlazorSpecialProjectFinal.Objects
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Microsoft.EntityFrameworkCore
+@using System.Security.Claims
+@implements IAsyncDisposable
+@inject IDbContextFactory<InventoryContext> DbFactory
+@inject IInventoryDbManagement InventoryDbManagement
+
+<QuickGrid Items="context.Sweets" class="table table-striped" Pagination="pagination">
+    @if (role)
+    {    
+    <TemplateColumn Title="Purchase">
+            <div>
+                <a href="/purchaseProduct/@context.SweetId">Purchase</a>
+            </div>
+        </TemplateColumn>
+    }
+    else
+    {
+        <TemplateColumn Title="Edit">
+            <div>
+                <a href="/editProduct/@context.SweetId">Edit</a>
+            </div>
+    </TemplateColumn>
+    <TemplateColumn Title="Delete">
+                @*<EditForm Model="Sweet"
+            FormName = "@($"sweet-{Sweet.SweetId}")"
+            OnValidSubmit="@(()=>{DeleteProduct(Sweet.SweetId);})">
+        <button type="submit" class="btn btn-primary">Delete</button>
+    </EditForm>
+    <form @onsubmit="@(()=>{DeleteProduct(context.SweetId);})">
+        <button type="submit" class="btn btn-primary">Delete</button>
+    </form>*@
+    <a href="/deleteProduct/@context.SweetId">Delete</a>
+           
+    </TemplateColumn>
+    }
+    <PropertyColumn Property="@(s => s.SweetId)" Sortable ="true" Title = "ID"/>
+    <PropertyColumn Property="@(s => s.Name)" Sortable="true" />
+    <PropertyColumn Property="@(s => s.Description)" Sortable="true" />
+    <PropertyColumn Property="@(s => s.Quantity)" Sortable ="true" />
+    <PropertyColumn Property="@(s => s.Price)" Sortable="true" />
+
+</QuickGrid>
+
+<Paginator State="pagination" />
+
+
+@code {
+
+    ClaimsPrincipal User = new ClaimsPrincipal();
+
+    [Parameter]
+    public bool role { get; set; }
+
+    [Parameter]
+    public Sweet? Sweet { get; set; }
+
+    
+
+    private InventoryContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+
+    }
+
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+
+    }
+
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+
+    PaginationState pagination = new PaginationState { ItemsPerPage = 10 };
+
+
+}
