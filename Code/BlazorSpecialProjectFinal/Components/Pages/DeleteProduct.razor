@@ -1,0 +1,86 @@
+﻿@page "/deleteProduct/{Id:int}"
+
+@using BlazorSpecialProjectFinal.Objects
+@inject IInventoryDbManagement InventoryDbManagement
+@inject NavigationManager NavigationManager
+
+<h3>DeleteProduct</h3>
+
+<EditForm Model="sweet" FormName="deleteForm">
+    @if (Id is not null)
+    {
+        <InputNumber @bind-Value=sweet.SweetId hidden></InputNumber>
+    }
+
+    <label for="name">Name</label>
+    <InputText @bind-Value="sweet.Name" class="form-control" readonly="true"></InputText>
+    <ValidationMessage For="@(() => sweet.Name)"></ValidationMessage>
+
+    <label for="description">Description</label>
+    <InputText @bind-Value="sweet.Description" class="form-control" readonly="true"></InputText>
+    <ValidationMessage For="@(() => sweet.Description)"></ValidationMessage>
+
+    <label for="quantity">Quantity</label>
+    <InputNumber @bind-Value="sweet.Quantity" class="form-control" readonly="true"></InputNumber>
+    <ValidationMessage For="@(() => sweet.Quantity)"></ValidationMessage>
+
+    <label for="price">Price</label>
+    <InputNumber @bind-Value="sweet.Price" class="form-control" readonly="true"></InputNumber>
+    <ValidationMessage For="@(() => sweet.Price)"></ValidationMessage>
+    <label for="delete">Are you sure you want to delete this product?</label>
+</EditForm>
+<form>
+    <InputRadioGroup @bind-Value="delete.DeleteChoice" @onsubmit="Submit">
+    <div>
+        <InputRadio Value= "Yes"/> Yes
+    </div>
+    <div>
+        <InputRadio Value="No" /> No
+    </div>
+</InputRadioGroup>
+</form>
+
+
+@*buttons to update*@
+<br />
+<br />
+<button type="submit" @onclick="Submit">Delete</button>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    [SupplyParameterFromForm]
+    private Sweet? sweet { get; set; }
+
+    public Delete delete = new Delete();
+
+    private string Yes = "Yes";
+
+    private string No = "No";
+
+    protected override void OnParametersSet()
+    {
+        if (this.Id.HasValue)
+        {
+            sweet ??= InventoryDbManagement.GetSweetById(Id ?? throw new ArgumentException());
+        }
+    }
+
+    public void Submit()
+    {
+        if (delete!= null)
+        {
+            @if (delete.DeleteChoice == "Yes")
+            {
+                InventoryDbManagement.DeleteProduct(Id ?? throw new ArgumentNullException());
+            }
+        }
+        NavigationManager.NavigateTo("/viewProducts");
+    }
+
+    public class Delete
+    {
+        public string DeleteChoice;
+    }
+}

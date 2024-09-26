@@ -28,10 +28,11 @@
             FormName = "@($"sweet-{Sweet.SweetId}")"
             OnValidSubmit="@(()=>{DeleteProduct(Sweet.SweetId);})">
         <button type="submit" class="btn btn-primary">Delete</button>
-    </EditForm>*@
+    </EditForm>
     <form @onsubmit="@(()=>{DeleteProduct(context.SweetId);})">
         <button type="submit" class="btn btn-primary">Delete</button>
-    </form>
+    </form>*@
+    <a href="/deleteProduct/@context.SweetId">Delete</a>
            
     </TemplateColumn>
     }
@@ -82,11 +83,5 @@
 
     PaginationState pagination = new PaginationState { ItemsPerPage = 10 };
 
-    private void DeleteProduct(int Id)
-    {
-        if(Id > 0)
-        {
-            InventoryDbManagement.DeleteProduct(Id);   
-        }
-    }
+
 }

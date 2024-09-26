@@ -22,5 +22,7 @@ namespace BlazorSpecialProjectFinal.Objects
         [Required(ErrorMessage = "Price is required.")]
         [Range(0.01, 10000, ErrorMessage = "Price must be between $0.01 and $10,000.")]
         public double Price { get; set; }
+
+        //public string? DeleteChoice { get; set; }
     }
 }
