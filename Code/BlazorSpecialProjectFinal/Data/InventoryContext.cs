@@ -17,6 +17,7 @@ namespace BlazorSpecialProjectFinal.Data
             
         }
         public DbSet<Sweet> Sweets { get; set; }
+        public DbSet<CheckOutHistory> CheckOutHistories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -171,6 +172,9 @@ namespace BlazorSpecialProjectFinal.Data
                 new Sweet { SweetId = 46, Name = "Wizochoc", 
                     Description = "Wizarding chocolate.", Price = 10.15, Quantity = 100 }
                 );
+
+            modelBuilder.Entity<CheckOutHistory>().HasKey(e => e.HistoryId);
         }
+
     }
 }

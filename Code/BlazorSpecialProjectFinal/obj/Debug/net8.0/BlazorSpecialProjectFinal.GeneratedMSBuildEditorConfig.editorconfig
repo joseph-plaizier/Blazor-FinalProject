@@ -1,251 +1,259 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorSpecialProjectFinal
 build_property.RootNamespace = BlazorSpecialProjectFinal
-build_property.ProjectDir = C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\
+build_property.ProjectDir = Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\cantc\OneDrive - Davis Technical College\Working Code\2990-SpecialProject(Blazor)\Blazor-FinalProject\Code\BlazorSpecialProjectFinal
+build_property.MSBuildProjectDirectory = Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/AccessDenied.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/AccessDenied.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXEFjY2Vzc0RlbmllZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ConfirmEmail.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ConfirmEmail.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXENvbmZpcm1FbWFpbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ConfirmEmailChange.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ConfirmEmailChange.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXENvbmZpcm1FbWFpbENoYW5nZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ExternalLogin.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ExternalLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXEV4dGVybmFsTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ForgotPassword.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ForgotPassword.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXEZvcmdvdFBhc3N3b3JkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ForgotPasswordConfirmation.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ForgotPasswordConfirmation.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXEZvcmdvdFBhc3N3b3JkQ29uZmlybWF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/InvalidPasswordReset.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/InvalidPasswordReset.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXEludmFsaWRQYXNzd29yZFJlc2V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/InvalidUser.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/InvalidUser.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXEludmFsaWRVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Lockout.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Lockout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXExvY2tvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Login.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXExvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/LoginWith2fa.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/LoginWith2fa.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXExvZ2luV2l0aDJmYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/LoginWithRecoveryCode.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/LoginWithRecoveryCode.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXExvZ2luV2l0aFJlY292ZXJ5Q29kZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/ChangePassword.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/ChangePassword.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxDaGFuZ2VQYXNzd29yZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/DeletePersonalData.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/DeletePersonalData.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxEZWxldGVQZXJzb25hbERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/Disable2fa.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/Disable2fa.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxEaXNhYmxlMmZhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/Email.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/Email.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxFbWFpbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/EnableAuthenticator.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/EnableAuthenticator.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxFbmFibGVBdXRoZW50aWNhdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/ExternalLogins.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/ExternalLogins.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxFeHRlcm5hbExvZ2lucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/GenerateRecoveryCodes.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/GenerateRecoveryCodes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxHZW5lcmF0ZVJlY292ZXJ5Q29kZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/Index.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/PersonalData.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/PersonalData.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxQZXJzb25hbERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/ResetAuthenticator.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/ResetAuthenticator.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxSZXNldEF1dGhlbnRpY2F0b3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/SetPassword.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/SetPassword.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxTZXRQYXNzd29yZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/TwoFactorAuthentication.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/TwoFactorAuthentication.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxUd29GYWN0b3JBdXRoZW50aWNhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/_Imports.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Manage/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Register.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXFJlZ2lzdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/RegisterConfirmation.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/RegisterConfirmation.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXFJlZ2lzdGVyQ29uZmlybWF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ResendEmailConfirmation.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ResendEmailConfirmation.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXFJlc2VuZEVtYWlsQ29uZmlybWF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ResetPassword.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ResetPassword.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXFJlc2V0UGFzc3dvcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ResetPasswordConfirmation.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/ResetPasswordConfirmation.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXFJlc2V0UGFzc3dvcmRDb25maXJtYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/_Imports.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Pages/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXF9JbXBvcnRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/AccountLayout.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/AccountLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxBY2NvdW50TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ExternalLoginPicker.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ExternalLoginPicker.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxFeHRlcm5hbExvZ2luUGlja2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ManageLayout.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ManageLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxNYW5hZ2VMYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ManageNavMenu.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ManageNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxNYW5hZ2VOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/RedirectToLogin.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxSZWRpcmVjdFRvTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ShowRecoveryCodes.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/ShowRecoveryCodes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxTaG93UmVjb3ZlcnlDb2Rlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/StatusMessage.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Account/Shared/StatusMessage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFNoYXJlZFxTdGF0dXNNZXNzYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/App.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Auth.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Auth.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ContactUs.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ContactUs.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0VXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Counter.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/DeleteProduct.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/DeleteProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZWxldGVQcm9kdWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/EditProduct.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/EditProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0UHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Error.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ExampleLoginInfoComponent.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ExampleLoginInfoComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFeGFtcGxlTG9naW5JbmZvQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Home.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/OrderProducts.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/OrderProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xPcmRlclByb2R1Y3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/PurchaseHistory.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/PurchaseHistory.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQdXJjaGFzZUhpc3RvcnkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/PurchaseProduct.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/PurchaseProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQdXJjaGFzZVByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ViewProducts.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ViewProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaWV3UHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ViewUsers.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ViewUsers.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaWV3VXNlcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Weather.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Routes.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/_Imports.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Controls/ProductsComponent.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Controls/ProductsComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xQcm9kdWN0c0NvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-z8jayg2pza
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Layout/MainLayout.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-wdtpa9hfy8
 
-[C:/Users/cantc/OneDrive - Davis Technical College/Working Code/2990-SpecialProject(Blazor)/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Layout/NavMenu.razor]
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ilbjhehd99
