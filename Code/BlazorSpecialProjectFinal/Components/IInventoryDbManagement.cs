@@ -10,6 +10,10 @@ namespace BlazorSpecialProjectFinal.Components
 
         void DeleteProduct(int Id);
 
+        void UpdateProduct(int Id, Sweet product);
+
+        void AddProduct(Sweet product);
+
 
     }
 }

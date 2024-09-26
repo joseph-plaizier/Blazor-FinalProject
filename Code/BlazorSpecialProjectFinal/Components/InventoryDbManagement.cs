@@ -37,5 +37,31 @@ namespace BlazorSpecialProjectFinal.Components
             db.Sweets.Remove(sweet);
             db.SaveChanges();
         }
+
+        public void UpdateProduct(int Id, Sweet product)
+        {
+            if(product == null) throw new ArgumentNullException(nameof(product));
+            if (Id != product.SweetId) return;
+
+            using var db = this.inventoryContext.CreateDbContext();
+            var productToUpdate = db.Sweets.Find(Id);
+            if(productToUpdate is not null)
+            {
+                productToUpdate.Name = product.Name;
+                productToUpdate.Description = product.Description;
+                productToUpdate.Quantity = product.Quantity;
+                productToUpdate.Price = product.Price;
+
+                db.SaveChanges();
+            }
+        }
+
+        public void AddProduct(Sweet product)
+        {
+            using var db = this.inventoryContext.CreateDbContext();
+            db.Sweets.Add(product);
+
+            db.SaveChanges();
+        }
     }
 }

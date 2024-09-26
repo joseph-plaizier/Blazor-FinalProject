@@ -66,6 +66,17 @@ else
 
     public void Submit()
     {
-        
+        if (sweet != null)
+        {
+            @if (this.Id.HasValue)
+            {
+                InventoryDbManagement.UpdateProduct(sweet.SweetId, sweet);
+            }
+            else
+            {
+                InventoryDbManagement.AddProduct(sweet);
+            }
+        }
+        NavigationManager.NavigateTo("/viewProducts");
     }
 }
