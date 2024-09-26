@@ -78,6 +78,7 @@
         if (this.Id.HasValue)
         {
             sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+            itemsInCart = Cart.GetCart().Count();
 
         }
         else
@@ -91,7 +92,7 @@
         if(newPurch.qt > 0)
         {
             Cart.SetCart(sweet);
-            itemsInCart += 1;
+            itemsInCart = Cart.GetCart().Count();
         }
     }
 
