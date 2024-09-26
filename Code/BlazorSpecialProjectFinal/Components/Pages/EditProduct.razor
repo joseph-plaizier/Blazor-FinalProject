@@ -1,0 +1,24 @@
+﻿@page "/editProduct/{Id:int}"
+
+
+@using BlazorSpecialProjectFinal.Objects
+@inject NavigationManager NavigationManager
+@inject IInventoryDbManagement InventoryDbManagement
+
+<h3>EditProduct</h3>
+
+@code {
+
+    [Parameter]
+    public int? Id { get; set; }
+
+    private Sweet sweet { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (this.Id.HasValue)
+        {
+            sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+        }
+    }
+}

@@ -8,6 +8,8 @@ namespace BlazorSpecialProjectFinal.Components
 
         Sweet? GetSweetById(int id);
 
+        void DeleteProduct(int Id);
+
 
     }
 }

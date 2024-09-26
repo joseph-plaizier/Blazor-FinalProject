@@ -27,5 +27,15 @@ namespace BlazorSpecialProjectFinal.Components
 
             return new Sweet();
         }
+
+        public void DeleteProduct(int Id)
+        {
+            using var db = this.inventoryContext.CreateDbContext();
+            var sweet = db.Sweets.Find(Id);
+            if (sweet is null) return;
+
+            db.Sweets.Remove(sweet);
+            db.SaveChanges();
+        }
     }
 }
