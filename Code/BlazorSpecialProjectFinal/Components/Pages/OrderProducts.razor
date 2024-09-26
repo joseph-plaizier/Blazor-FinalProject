@@ -1,9 +1,11 @@
 ﻿@page "/orderProducts"
+@using Microsoft.AspNetCore.Authorization
 
-[Authorize(Policy = "Regular")]
+@attribute [Authorize(Policy = "Regular")]
 
 <h3>Order Products</h3>
 
+<<<<<<< HEAD
 <table class="table table-striped">
         <RepeaterComponent Items="context.Sweets">
             <Header>
@@ -34,6 +36,9 @@
         </RepeaterComponent>
     </table>
 
+=======
+<ProductsComponent role="true"></ProductsComponent>
+>>>>>>> QuickGrid
 
 
 @code {

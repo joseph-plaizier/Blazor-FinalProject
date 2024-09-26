@@ -1,8 +1,11 @@
 ﻿@page "/viewProducts"
+@using Microsoft.AspNetCore.Authorization
 
-[Authorize(Policy = "Admin")]
+@attribute [Authorize(Policy = "Admin")]
 
 <h3>ViewProducts</h3>
+
+<ProductsComponent role="false"></ProductsComponent>
 
 @code {
 
