@@ -1,7 +1,25 @@
-﻿@page "/purchaseProduct"
+﻿@page "/purchaseProduct/{Id:int}"
+@using BlazorSpecialProjectFinal.Objects
+@inject NavigationManager NavigationManager
+@inject IInventoryDbManagement InventoryDbManagement
 
-<h3>PurchaseProduct</h3>
+<h3>Purchase a Product</h3>
+
+
+
 
 @code {
 
+    [Parameter]
+    public int? Id { get; set; }
+
+    private Sweet sweet { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (this.Id.HasValue)
+        {
+            sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+        }
+    }
 }

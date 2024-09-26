@@ -1,4 +1,5 @@
 ﻿
+@using BlazorSpecialProjectFinal.Objects
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using Microsoft.EntityFrameworkCore
 @using System.Security.Claims
@@ -8,7 +9,7 @@
 <QuickGrid Items="context.Sweets" class="table table-striped">
     @if (role)
     {
-        <TemplateColumn Title="Purchase">
+    <TemplateColumn Title="Purchase">
             <div>
                 <a href="/purchaseProduct">Purchase</a>
             </div>
@@ -28,7 +29,7 @@
             </div>
     </TemplateColumn>
     }
-    <PropertyColumn Property="@(s => s.SweetId)" Sortable ="true" />
+    <PropertyColumn Property="@(s => s.SweetId)" Sortable ="true" Title = "ID"/>
     <PropertyColumn Property="@(s => s.Name)" Sortable="true" />
     <PropertyColumn Property="@(s => s.Description)" Sortable="true" />
     <PropertyColumn Property="@(s => s.Quantity)" Sortable ="true" />
@@ -45,6 +46,9 @@
 
     [Parameter]
     public bool role { get; set; }
+
+    [Parameter]
+    public Sweet? Sweet { get; set; }
 
     private InventoryContext context = default!;
      

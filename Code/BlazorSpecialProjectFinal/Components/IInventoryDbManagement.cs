@@ -6,6 +6,8 @@ namespace BlazorSpecialProjectFinal.Components
     {
         List<Sweet> GetSweets();
 
+        Sweet? GetSweetById(int id);
+
 
     }
 }

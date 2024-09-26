@@ -18,5 +18,14 @@ namespace BlazorSpecialProjectFinal.Components
             using var db = this.inventoryContext.CreateDbContext();
             return db.Sweets.ToList();
         }
+
+        public Sweet GetSweetById(int id)
+        {
+            using var db = this.inventoryContext.CreateDbContext();
+            var sweet = db.Sweets.Find(id);
+            if (sweet is not null) return sweet;
+
+            return new Sweet();
+        }
     }
 }
