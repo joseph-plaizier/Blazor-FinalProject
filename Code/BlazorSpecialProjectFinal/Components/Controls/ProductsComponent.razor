@@ -7,7 +7,7 @@
 @inject IDbContextFactory<InventoryContext> DbFactory
 @inject IInventoryDbManagement InventoryDbManagement
 
-<QuickGrid Items="context.Sweets" class="table table-striped" >
+<QuickGrid Items="context.Sweets" class="table table-striped" Pagination="pagination">
     @if (role)
     {    
     <TemplateColumn Title="Purchase">

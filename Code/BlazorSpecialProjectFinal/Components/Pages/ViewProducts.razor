@@ -1,12 +1,21 @@
 ﻿@page "/viewProducts"
 @using Microsoft.AspNetCore.Authorization
+@inject NavigationManager NavigationManager
 
 @attribute [Authorize(Policy = "Admin")]
 
-<h3>ViewProducts</h3>
+<h3>Products</h3>
 
 <ProductsComponent role="false"></ProductsComponent>
 
-@code {
+@*add a button to add new product*@
+<button class="btn btn-primary" type="button" onclick="AddProduct">Add Product</button>
 
+
+
+@code {
+    private void AddProduct()
+    {
+        NavigationManager.NavigateTo("/addProduct");
+    }
 }

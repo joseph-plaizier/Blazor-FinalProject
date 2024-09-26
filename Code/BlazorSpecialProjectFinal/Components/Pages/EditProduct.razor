@@ -1,18 +1,48 @@
 ﻿@page "/editProduct/{Id:int}"
+@page "/addProduct"
 
 
 @using BlazorSpecialProjectFinal.Objects
+@using Microsoft.AspNetCore.Authorization
 @inject NavigationManager NavigationManager
 @inject IInventoryDbManagement InventoryDbManagement
 
+@attribute [Authorize (Policy = "Admin")]
+
 <h3>EditProduct</h3>
+
+
+<EditForm Model = "sweet" FormName = "productForm" OnValidSubmit= "Submit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+
+@if (Id is not null)
+{
+    <InputNumber @bind-Value=sweet.SweetId hidden></InputNumber>    
+}
+    
+    <label for="name">Name</label>
+    <InputText @bind-Value="sweet.Name" class="form-control"></InputText>
+    <label for="description">Description</label>
+    <InputText @bind-Value="sweet.Description" class="form-control"></InputText>
+    <label for="quantity">Quantity</label>
+    <InputNumber @bind-Value="sweet.Quantity" class="form-control"></InputNumber>
+    <label for="price">Price</label>
+    <InputNumber @bind-Value="sweet.Price" class="form-control"></InputNumber>
+</EditForm>
+
+@*buttons to update*@
+<br/>
+<br />
+<button type="submit" @onclick="Submit">Save</button>
 
 @code {
 
     [Parameter]
     public int? Id { get; set; }
 
-    private Sweet sweet { get; set; }
+    [SupplyParameterFromForm]
+    private Sweet? sweet { get; set; }
 
     protected override void OnParametersSet()
     {
@@ -20,5 +50,10 @@
         {
             sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
         }
+    }
+
+    public void Submit()
+    {
+        
     }
 }
