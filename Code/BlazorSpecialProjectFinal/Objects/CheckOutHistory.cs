@@ -4,6 +4,10 @@ namespace BlazorSpecialProjectFinal.Objects
 {
     public class CheckOutHistory
     {
+
+        public int Id { get; set; }
+
+        [Required(ErrorMessage = "A check out history ID is required.")]
         public int HistoryId { get; set; }
         
         [Required(ErrorMessage = "Product Id is required.")]

@@ -2,6 +2,8 @@
 using BlazorSpecialProjectFinal.Objects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Identity.Client;
+using Microsoft.IdentityModel.Tokens;
 
 namespace BlazorSpecialProjectFinal.Components
 {
@@ -20,12 +22,15 @@ namespace BlazorSpecialProjectFinal.Components
         private List<Tuple<Sweet, int>> _cart = new List<Tuple<Sweet, int>>();
         private Sweet _sweet = new Sweet();
         private int _qty;
+        private int lastHistoryId = 0;
 
-        public void AddHistory(QtPurchase QtPurch, string userId)
+        public async void AddHistory(QtPurchase QtPurch, string userId)
         {
             _QtPurch = QtPurch;
 
             _cart = _QtPurch.GetCart();
+
+            _history.HistoryId = await GetLastHistoryID();
 
             foreach (var item in _cart)
             {
@@ -45,6 +50,23 @@ namespace BlazorSpecialProjectFinal.Components
                 db.CheckOutHistories.Add(_history);
                 db.SaveChanges();
             }
+        }
+
+        private async Task<int> GetLastHistoryID()
+        {
+            using var db = this.inventoryContext.CreateDbContext();
+            await db.CheckOutHistories.OrderByDescending(x => x.HistoryId).FirstOrDefaultAsync();
+            
+            if(lastHistoryId == 0)
+            {
+                lastHistoryId = 1;
+            }
+            else
+            {
+                lastHistoryId += 1;
+            }
+
+            return lastHistoryId;
         }
     }
 }

@@ -3,6 +3,7 @@ using BlazorSpecialProjectFinal.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazorSpecialProjectFinal.Data.InventoryMigrations
 {
     [DbContext(typeof(InventoryContext))]
-    partial class InventoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240927172321_UpdateCheckoutHistory")]
+    partial class UpdateCheckoutHistory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -59,7 +62,7 @@ namespace BlazorSpecialProjectFinal.Data.InventoryMigrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CheckOutHistories", (string)null);
+                    b.ToTable("CheckOutHistories");
                 });
 
             modelBuilder.Entity("BlazorSpecialProjectFinal.Objects.Sweet", b =>
@@ -87,7 +90,7 @@ namespace BlazorSpecialProjectFinal.Data.InventoryMigrations
 
                     b.HasKey("SweetId");
 
-                    b.ToTable("Sweets", (string)null);
+                    b.ToTable("Sweets");
 
                     b.HasData(
                         new

@@ -173,7 +173,8 @@ namespace BlazorSpecialProjectFinal.Data
                     Description = "Wizarding chocolate.", Price = 10.15, Quantity = 100 }
                 );
 
-            modelBuilder.Entity<CheckOutHistory>().HasKey(e => e.HistoryId);
+            modelBuilder.Entity<CheckOutHistory>().HasKey(e => e.Id);
+            //modelBuilder.Entity<CheckOutHistory>();
         }
 
     }
