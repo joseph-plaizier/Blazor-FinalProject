@@ -1,3 +1,10 @@
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.csproj.AssemblyReference.cache
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.AssemblyInfoInputs.cache
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.AssemblyInfo.cs
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.csproj.CoreCompileInputs.cache
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.MvcApplicationPartsAssemblyInfo.cache
+Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.sourcelink.json
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\appsettings.Development.json
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\appsettings.json
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\BlazorSpecialProjectFinal.staticwebassets.runtime.json
@@ -149,13 +156,6 @@ Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFi
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.csproj.AssemblyReference.cache
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.GeneratedMSBuildEditorConfig.editorconfig
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.AssemblyInfoInputs.cache
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.AssemblyInfo.cs
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.csproj.CoreCompileInputs.cache
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.MvcApplicationPartsAssemblyInfo.cache
-Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\BlazorSpecialProjectFinal.sourcelink.json
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\staticwebassets.build.json
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\staticwebassets.development.json
 Z:\Projects\Coding\Visual Studio\Blazor-FinalProject\Code\BlazorSpecialProjectFinal\obj\Debug\net8.0\staticwebassets\msbuild.BlazorSpecialProjectFinal.Microsoft.AspNetCore.StaticWebAssets.props

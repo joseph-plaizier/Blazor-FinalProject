@@ -113,19 +113,19 @@
                 userId = user.Id; // Here we get the UserId
             }
         }
-        
+
     }
 
     protected override async Task OnInitializedAsync()
     {
         /*var user = await GetCurrentUserAsync();
         if (user != null)
-        {
+            {
             userId = user.Id; // Here we get the UserId
         }
-        */
+    */
     }
-    
+
     private async Task<IdentityUser> GetCurrentUserAsync()
     {
         var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
@@ -139,9 +139,10 @@
 
         return null;
     }
-    
+
     private void CheckOut()
     {
         CheckoutHistoryDbManagement.AddHistory(Cart, userId);
+        NavigationManager.NavigateTo("/checkout");
     }
 }
