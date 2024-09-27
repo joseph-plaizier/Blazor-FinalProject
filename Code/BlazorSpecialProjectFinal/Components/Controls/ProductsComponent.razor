@@ -6,6 +6,7 @@
 @implements IAsyncDisposable
 @inject IDbContextFactory<InventoryContext> DbFactory
 @inject IInventoryDbManagement InventoryDbManagement
+@inject QtPurchase Cart
 
 <QuickGrid Items="context.Sweets" class="table table-striped" Pagination="pagination">
     @if (role)
@@ -24,14 +25,6 @@
             </div>
     </TemplateColumn>
     <TemplateColumn Title="Delete">
-                @*<EditForm Model="Sweet"
-            FormName = "@($"sweet-{Sweet.SweetId}")"
-            OnValidSubmit="@(()=>{DeleteProduct(Sweet.SweetId);})">
-        <button type="submit" class="btn btn-primary">Delete</button>
-    </EditForm>
-    <form @onsubmit="@(()=>{DeleteProduct(context.SweetId);})">
-        <button type="submit" class="btn btn-primary">Delete</button>
-    </form>*@
     <a href="/deleteProduct/@context.SweetId">Delete</a>
            
     </TemplateColumn>

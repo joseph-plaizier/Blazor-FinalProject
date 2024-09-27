@@ -2,12 +2,26 @@
 @using BlazorSpecialProjectFinal.Objects
 @using Microsoft.AspNetCore.Authorization
 @using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
 @inject NavigationManager NavigationManager
 @inject IInventoryDbManagement InventoryDbManagement
+@inject ICheckoutHistoryDbManagement CheckoutHistoryDbManagement
+@inject QtPurchase Cart
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 @attribute [Authorize(Policy = "Regular")]
 
 <h3>Purchase a Product</h3>
+
+@if(itemsInCart > 0)
+{
+    <text>This product has been added to your shopping cart.</text>
+    <br />
+    <text>Your cart contains @itemsInCart items.</text>
+    <br />
+}
 
 <EditForm Model="sweet" FormName="productForm" OnValidSubmit="AddToCart">
     <DataAnnotationsValidator></DataAnnotationsValidator>
@@ -30,20 +44,27 @@
     <InputNumber @bind-Value="sweet.Price" class="form-control" readonly=true></InputNumber>
     <ValidationMessage For="@(() => sweet.Price)"></ValidationMessage>
 </EditForm>
-<EditForm Model = "newPurch" OnValidSubmit="AddToCart">
+<EditForm Model="newPurch" OnValidSubmit="AddToCart">
     <DataAnnotationsValidator></DataAnnotationsValidator>
     <label for="quantity">Quantity to Buy</label>
     <InputNumber @bind-Value="newPurch.qt" class="form-control"></InputNumber>
     <ValidationMessage For="@(() => newPurch.qt)"></ValidationMessage>
 </EditForm>
-    
 
 
 @*buttons to update*@
 <br />
 <br />
-<button type="submit" @onclick="AddToCart">Add to cart</button>
+<button type="submit" @onclick="AddToCart" class="btn btn-primary">Add to cart</button>
 
+@if (itemsInCart > 0)
+{
+    <br />
+    <br />
+    <text>All done?  Click here to check out.</text>
+    <br />
+    <button type="submit" @onclick="CheckOut" class="btn btn-primary">Check Out</button>
+}
 
 @code {
 
@@ -53,6 +74,10 @@
     [SupplyParameterFromForm]
     private Sweet? sweet { get; set; }
 
+    private int itemsInCart;
+
+    private string userId;
+
     QtPurchase newPurch = new QtPurchase();
 
     protected override void OnParametersSet()
@@ -60,6 +85,7 @@
         if (this.Id.HasValue)
         {
             sweet ??= InventoryDbManagement.GetSweetById(Id ?? 1);
+            itemsInCart = Cart.GetCart().Count();
 
         }
         else
@@ -68,12 +94,55 @@
         }
     }
 
-    private async Task AddToCart()
+    private void AddToCart()
     {
         if(newPurch.qt > 0)
         {
-            newPurch.SwtId = sweet.SweetId;
-
+            Cart.SetCart(sweet, newPurch.qt);
+            itemsInCart = Cart.GetCart().Count();
         }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var user = await GetCurrentUserAsync();
+            if (user != null)
+            {
+                userId = user.Id; // Here we get the UserId
+            }
+        }
+
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        /*var user = await GetCurrentUserAsync();
+        if (user != null)
+            {
+            userId = user.Id; // Here we get the UserId
+        }
+    */
+    }
+
+    private async Task<IdentityUser> GetCurrentUserAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            // Fetch the user by their email or username
+            return await UserManager.GetUserAsync(user); //breaks here
+        }
+
+        return null;
+    }
+
+    private void CheckOut()
+    {
+        CheckoutHistoryDbManagement.AddHistory(Cart, userId);
+        NavigationManager.NavigateTo("/checkout");
     }
 }
