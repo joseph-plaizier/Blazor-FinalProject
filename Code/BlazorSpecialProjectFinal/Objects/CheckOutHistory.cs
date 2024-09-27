@@ -29,6 +29,7 @@ namespace BlazorSpecialProjectFinal.Objects
         public double Cost { get; set; }
 
         [Required(ErrorMessage = "User Id is required.")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
+
     }
 }

@@ -186,6 +186,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/CheckOut.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGVja091dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/Projects/Coding/Visual Studio/Blazor-FinalProject/Code/BlazorSpecialProjectFinal/Components/Pages/ContactUs.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0VXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

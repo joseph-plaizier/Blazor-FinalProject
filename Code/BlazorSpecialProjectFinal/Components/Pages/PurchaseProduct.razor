@@ -2,9 +2,14 @@
 @using BlazorSpecialProjectFinal.Objects
 @using Microsoft.AspNetCore.Authorization
 @using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
 @inject NavigationManager NavigationManager
 @inject IInventoryDbManagement InventoryDbManagement
+@inject ICheckoutHistoryDbManagement CheckoutHistoryDbManagement
 @inject QtPurchase Cart
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
 @attribute [Authorize(Policy = "Regular")]
 
@@ -39,7 +44,7 @@
     <InputNumber @bind-Value="sweet.Price" class="form-control" readonly=true></InputNumber>
     <ValidationMessage For="@(() => sweet.Price)"></ValidationMessage>
 </EditForm>
-<EditForm Model = "newPurch" OnValidSubmit="AddToCart">
+<EditForm Model="newPurch" OnValidSubmit="AddToCart">
     <DataAnnotationsValidator></DataAnnotationsValidator>
     <label for="quantity">Quantity to Buy</label>
     <InputNumber @bind-Value="newPurch.qt" class="form-control"></InputNumber>
@@ -71,6 +76,8 @@
 
     private int itemsInCart;
 
+    private string userId;
+
     QtPurchase newPurch = new QtPurchase();
 
     protected override void OnParametersSet()
@@ -91,13 +98,50 @@
     {
         if(newPurch.qt > 0)
         {
-            Cart.SetCart(sweet);
+            Cart.SetCart(sweet, newPurch.qt);
             itemsInCart = Cart.GetCart().Count();
         }
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var user = await GetCurrentUserAsync();
+            if (user != null)
+            {
+                userId = user.Id; // Here we get the UserId
+            }
+        }
+        
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        /*var user = await GetCurrentUserAsync();
+        if (user != null)
+        {
+            userId = user.Id; // Here we get the UserId
+        }
+        */
+    }
+    
+    private async Task<IdentityUser> GetCurrentUserAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            // Fetch the user by their email or username
+            return await UserManager.GetUserAsync(user); //breaks here
+        }
+
+        return null;
+    }
+    
     private void CheckOut()
     {
-        
+        CheckoutHistoryDbManagement.AddHistory(Cart, userId);
     }
 }

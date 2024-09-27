@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace BlazorSpecialProjectFinal
 {
@@ -39,6 +40,7 @@ namespace BlazorSpecialProjectFinal
             });
 
             builder.Services.AddTransient<IInventoryDbManagement, InventoryDbManagement>();
+            builder.Services.AddTransient<ICheckoutHistoryDbManagement, CheckoutHistoryDbManagement>();
             builder.Services.AddScoped<QtPurchase>();
 
             //add QuickGrid implementation
@@ -65,7 +67,6 @@ namespace BlazorSpecialProjectFinal
                 .AddRoleManager<RoleManager<IdentityRole>>()
                 .AddRoleStore<RoleStore<IdentityRole, ApplicationDbContext>>()
                 .AddDefaultTokenProviders();
-
 
             builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 

@@ -11,7 +11,9 @@ namespace BlazorSpecialProjectFinal.Objects
         [Range(1, 1000, ErrorMessage = "Quantity must be between 1 and 1000")]
         public int qt { get; set; }
         public Sweet? swt { get; set; }
+
         List<Tuple<Sweet, int>> cart = new List<Tuple<Sweet, int>>();
+
 
         private Sweet _sweet = new Sweet();
 
@@ -20,9 +22,10 @@ namespace BlazorSpecialProjectFinal.Objects
             return cart;
         }
 
-        public void SetCart (Sweet sweet)
+        public void SetCart (Sweet sweet, int qt)
         {
             _sweet = sweet;
+            this.qt = qt;
 
             cart.Add(Tuple.Create(sweet, qt));
         }
