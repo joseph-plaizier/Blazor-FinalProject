@@ -7,32 +7,24 @@
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\checkouthistorydbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\data\\inventorymigrations\\20240927172321_updatecheckouthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\data\\inventorymigrations\\20240927172321_updatecheckouthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\purchaseproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\purchaseproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\objects\\checkouthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\objects\\checkouthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\data\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\data\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927173248_UpdateCheckoutHist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927173248_UpdateCheckoutHist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\purchaseproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\purchaseproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\objects\\checkouthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\objects\\checkouthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\pages\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\pages\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|z:\\projects\\coding\\visual studio\\blazor-finalproject\\code\\blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92EFD78A-6A99-40EE-9D68-F415F32B0EED}|BlazorSpecialProjectFinal\\BlazorSpecialProjectFinal.csproj|solutionrelative:blazorspecialprojectfinal\\components\\controls\\productscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,34 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240927172321_UpdateCheckoutHistory.cs",
-              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927172321_UpdateCheckoutHistory.cs",
-              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927172321_UpdateCheckoutHistory.cs",
-              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927172321_UpdateCheckoutHistory.cs",
-              "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927172321_UpdateCheckoutHistory.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T17:37:21.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240927173248_UpdateCheckoutHist.cs",
-              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927173248_UpdateCheckoutHist.cs",
-              "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927173248_UpdateCheckoutHist.cs",
-              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927173248_UpdateCheckoutHist.cs",
-              "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\InventoryMigrations\\20240927173248_UpdateCheckoutHist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T17:32:48.842Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -78,20 +44,20 @@
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\CheckoutHistoryDbManagement.cs",
               "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\CheckoutHistoryDbManagement.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\CheckoutHistoryDbManagement.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwC8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T17:05:59.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CheckOutHistory.cs",
               "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Objects\\CheckOutHistory.cs",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Objects\\CheckOutHistory.cs",
               "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Objects\\CheckOutHistory.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Objects\\CheckOutHistory.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T17:04:42.786Z",
               "EditorCaption": ""
@@ -104,39 +70,40 @@
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
               "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Data\\InventoryContext.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwK8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwK8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T06:43:06.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ProductsComponent.razor",
               "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
               "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Controls\\ProductsComponent.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T06:34:22.548Z"
+              "WhenOpened": "2024-09-27T06:34:22.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PurchaseProduct.razor",
               "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseProduct.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseProduct.razor",
               "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseProduct.razor",
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\PurchaseProduct.razor",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-27T06:34:07.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "CheckOut.razor",
               "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\Blazor-FinalProject\\Code\\BlazorSpecialProjectFinal\\Components\\Pages\\CheckOut.razor",
               "RelativeDocumentMoniker": "BlazorSpecialProjectFinal\\Components\\Pages\\CheckOut.razor",
@@ -144,8 +111,7 @@
               "RelativeToolTip": "BlazorSpecialProjectFinal\\Components\\Pages\\CheckOut.razor",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T06:33:15.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T06:33:15.386Z"
             }
           ]
         }
