@@ -14,12 +14,16 @@ namespace BlazorSpecialProjectFinal.Components
         {
             this.inventoryContext = inventoryContext;
         }
-        
-        private CheckOutHistory _history = new CheckOutHistory();
+
+        private CheckOutHistory _history;
         private QtPurchase _QtPurch = new QtPurchase();
         private List<Tuple<Sweet, int>> _cart = new List<Tuple<Sweet, int>>();
         private Sweet _sweet = new Sweet();
         private int _qty;
+<<<<<<< HEAD
+=======
+        private int lastHistoryId;
+>>>>>>> Dev
 
         public void AddHistory(QtPurchase QtPurch, string userId)
         {
@@ -27,8 +31,15 @@ namespace BlazorSpecialProjectFinal.Components
 
             _cart = _QtPurch.GetCart();
 
+<<<<<<< HEAD
+=======
+            lastHistoryId = await GetLastHistoryID();
+
+>>>>>>> Dev
             foreach (var item in _cart)
             {
+                _history = new CheckOutHistory();
+                
                 _sweet = item.Item1;
                 _qty = item.Item2;
 
@@ -40,6 +51,7 @@ namespace BlazorSpecialProjectFinal.Components
                 _history.Price = _sweet.Price;
                 _history.UserId = userId;
                 _history.Cost = _qty * _sweet.Price;
+                _history.HistoryId = lastHistoryId;
 
                 using var db = this.inventoryContext.CreateDbContext();
                 db.CheckOutHistories.Add(_history);
